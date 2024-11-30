@@ -12,7 +12,7 @@ function App() {
     <>
       <Header></Header>
       <FetchItems></FetchItems>
-      {fetchstatus.currentlyFetching ? <LoadingSpinner/ > : <Outlet></Outlet>}
+      {fetchstatus.currentlyFetching ? <LoadingSpinner/ > : <Outlet/>}
       <Outlet/>
       <Footer></Footer>
     </>

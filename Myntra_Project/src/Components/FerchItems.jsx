@@ -28,10 +28,9 @@ function FetchItems() {
     };
   }, [fetchStatus]);
 
-  return (
+  return 
     <>
       
     </>
-  );
 }
 export default FetchItems;
